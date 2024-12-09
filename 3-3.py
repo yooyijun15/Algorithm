@@ -7,8 +7,8 @@ a = list(map(int, input().split()))
 #     a = int(input())
 #     list.append(a)
 
-# set() : 중복 허용하지 않고, 순서 없는 집합 자료형
 sum_set = set()
+# set() : 중복 허용하지 않고, 순서 없는 집합 자료형
 
 # Step 3. 리스트 a에서 서로 다른 3개의 원소를 더한 값을 sum_pocket에 원소로 넣기
 for i in range(N):
